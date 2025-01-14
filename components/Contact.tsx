@@ -95,15 +95,21 @@ function Contact() {
                   <input
                     type="email"
                     placeholder="Email"
+                    name="email"
                     required
                     className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 text-white placeholder:text-zinc-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                    value={form.email}
+                  onChange={handleChange}
                   />
                 </div>
                 <div className="space-y-2">
                   <textarea
                     placeholder="Message"
+                    name="message"
                     required
                     className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 text-white placeholder:text-zinc-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all min-h-[150px]"
+                    value={form.message}
+                  onChange={handleChange}
                   />
                 </div>
                 <div className='flex justify-center items-center'>
