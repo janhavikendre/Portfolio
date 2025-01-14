@@ -4,6 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { TextGenerateEffect } from "./ui/TextGenersteEffect";
 import Link from "next/link";
+import { Spotlight } from "./ui/Spotlight";
 
 
 const Hero = () => {
@@ -12,6 +13,10 @@ const Hero = () => {
 
   return (
     <div className="relative pb-20 pt-30 bg-black ">
+      <Spotlight
+      className="-top-40 left-0 md:left-60 md:-top-20"
+      fill="white"
+      />
 
       {/* Background Grid */}
       <div className="absolute inset-0 h-full w-full dark:bg-black-100 bg-black dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]"></div>

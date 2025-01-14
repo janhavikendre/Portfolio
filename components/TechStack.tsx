@@ -15,9 +15,10 @@ function TechStack() {
             icons: [
               { src: 'https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png', alt: 'React' },
               { src: 'https://cdn.iconscout.com/icon/free/png-512/typescript-3521774-2945272.png', alt: 'TypeScript' },
-              { src: '/images/html.jpg', alt: 'Next.js' },
-              { src: '/images/css.png', alt: 'Next.js' },
+              { src: '/images/html.jpg', alt: 'HTML' },
+              { src: '/images/css.png', alt: 'CSS' },
               { src: '/images/tailwind.png', alt: 'Next.js' },
+              { src: '/images/javascript.png', alt: 'Javascrpt' },
              
             ],
           },
@@ -27,6 +28,9 @@ function TechStack() {
               { src: '/images/nodejs.jpg', alt: 'Node.js' },
               { src: '/images/expressjs.png', alt: 'Express' },
               { src: '/images/mongodb.png', alt: 'MongoDB' },
+              { src: '/images/postgress.png', alt: 'Postgress' },
+              { src: '/images/sql.jpg', alt: 'MySql' },
+
             ],
           },
         ]}
