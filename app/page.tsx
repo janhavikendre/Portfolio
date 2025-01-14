@@ -11,16 +11,6 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 
-
-const App = () => {
-  return (
-    <House />
-  );
-};
-
-export { App };
-
-
 export default function Home() {
   return (
     <main className="realtive bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
