@@ -51,7 +51,7 @@ const Hero = () => {
               />
             </a>
 
-            <Link target="_blank" href='https://drive.google.com/uc?export=download&id=1RBUKVkt_JNnNthJW0ggiOqm7FXyIMG5Y'>
+            <Link target="_blank" href='https://drive.google.com/file/d/14oLon1Kgdlyibi75DPpB3Pc-2Cgfv0T4/view?usp=sharing'>
             <MagicButton
                 title="Download Cv"
            
