@@ -3,7 +3,7 @@ import { FaTwitter, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className="w-full bg-black py-8">
+    <footer className="w-full py-8">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center text-center space-y-4">
           {/* Social Icons */}
