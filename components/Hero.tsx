@@ -1,4 +1,5 @@
 "use client";
+import React from 'react';
 
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
@@ -11,15 +12,15 @@ const Hero = () => {
   const words = ["beautiful", "functional", "responsive"];
 
   return (
-    <div className="relative bg-black h-[83.333vh] flex items-center p-6 md:p-8 lg:p-12 m-10">
+    <div className="relative h-[83.333vh] flex items-center p-6 md:p-8 lg:p-12 m-10">
       {/* Spotlight Background */}
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
       />
 
-      {/* Background Grid */}
-      <div className="absolute inset-0 h-full w-full dark:bg-black-100 bg-black dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]"></div>
+      {/* Background Grid
+      <div className="absolute inset-0 h-full w-full dark:bg-black-100 bg-black dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]"></div> */}
 
       {/* Main content container */}
       <div className="relative z-20 flex flex-col-reverse lg:flex-row items-center justify-center w-full">
@@ -64,7 +65,7 @@ const Hero = () => {
         </div>
 
         {/* Right Section: Image */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mb-6 lg:mb-0">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mb-2 lg:mb-0">
           <img
             src="/images/janhavi.jpg"
             alt="Janhavi"
