@@ -17,8 +17,9 @@ function TechStack() {
               { src: 'https://cdn.iconscout.com/icon/free/png-512/typescript-3521774-2945272.png', alt: 'TypeScript' },
               { src: '/images/html.jpg', alt: 'HTML' },
               { src: '/images/css.png', alt: 'CSS' },
-              { src: '/images/tailwind.png', alt: 'Next.js' },
+              { src: '/images/tailwind.png', alt: 'Tailwind' },
               { src: '/images/javascript.png', alt: 'Javascrpt' },
+              { src: '/images/next.jpg', alt: 'Next.js' },
              
             ],
           },
