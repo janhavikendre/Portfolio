@@ -29,7 +29,7 @@ function Contact() {
     setLoading(true);
 
     try {
-      await emailjs.send('service_oz5bdhx', 'template_9f91ugl', {
+      await emailjs.send('service_g3dcrms', 'template_9f91ugl', {
       from_name: form.name,
       to_name: 'Janhavi kendre',
       from_email: form.email,

@@ -40,6 +40,11 @@ function TechStack() {
       name: "JavaScript",
       icon: "/images/javascript.png",
       description: "Dynamic programming language for web development"
+    },
+    {
+      name: "Redux",
+      icon: "https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png",
+      description: "distributed state management for complex applications"
     }
   ];
 
@@ -68,6 +73,11 @@ function TechStack() {
       name: "MySQL",
       icon: "/images/sql.jpg",
       description: "Popular relational database management system"
+    },
+     {
+      name: "Redux",
+      icon: "https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png",
+      description: "distributed state management for complex applications"
     }
   ];
 

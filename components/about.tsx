@@ -56,34 +56,7 @@ export function About() {
     <section id="about" className="bg-black">
       <Timeline data={data} />
 
-      {/* Professional Stats */}
-      <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-10 pb-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-8">
-          <div className="text-center p-6 md:p-8 bg-black backdrop-blur-sm rounded-2xl border border-white/20 hover:border-white/40 transition-all duration-300 hover:shadow-lg hover:shadow-white/10">
-            <div className="w-16 h-16 mx-auto mb-4 bg-black rounded-xl flex items-center justify-center shadow-lg border border-white/20">
-              <Briefcase size={28} className="text-white" />
-            </div>
-            <h3 className="text-lg md:text-xl font-bold text-white mb-2">Corporate Experience</h3>
-            <p className="text-gray-300 text-sm md:text-base">Enterprise Development</p>
-          </div>
-
-          <div className="text-center p-6 md:p-8 bg-black backdrop-blur-sm rounded-2xl border border-white/20 hover:border-white/40 transition-all duration-300 hover:shadow-lg hover:shadow-white/10">
-            <div className="w-16 h-16 mx-auto mb-4 bg-black rounded-xl flex items-center justify-center shadow-lg border border-white/20">
-              <Users size={28} className="text-white" />
-            </div>
-            <h3 className="text-lg md:text-xl font-bold text-white mb-2">Freelance Projects</h3>
-            <p className="text-gray-300 text-sm md:text-base">10+ Client Solutions</p>
-          </div>
-
-          <div className="text-center p-6 md:p-8 bg-black backdrop-blur-sm rounded-2xl border border-white/20 hover:border-white/40 transition-all duration-300 hover:shadow-lg hover:shadow-white/10">
-            <div className="w-16 h-16 mx-auto mb-4 bg-black rounded-xl flex items-center justify-center shadow-lg border border-white/20">
-              <Code size={28} className="text-white" />
-            </div>
-            <h3 className="text-lg md:text-xl font-bold text-white mb-2">Tech Stack</h3>
-            <p className="text-gray-300 text-sm md:text-base">MERN & Modern Technologies</p>
-          </div>
-        </div>
-      </div>
+    
     </section>
   );
 }
